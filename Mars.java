@@ -1,6 +1,6 @@
 //step1:
 public class Mars {
-    public static void main(String[] args) throws InterruptedException {
+    public  Mars() throws InterruptedException {
         String colonyName = "Mars' First Colony";
         int shipPopulation = 300;
         double meals = 4000.00;
@@ -33,11 +33,11 @@ public class Mars {
         String  landingLocation = "The Hill";
         if(landingLocation.equalsIgnoreCase("The Plain")){
         };
-        landing = landingCheck(2);
+        landing = landingCheck(7);
 //        Thread.sleep(250);
 
     }
-    public static boolean landingCheck(int minutesLeft) throws InterruptedException {
+    public boolean landingCheck(int minutesLeft) throws InterruptedException {
         for(int minute = 0; minute <= minutesLeft; minute++ ){
             if( (minute % 2) == 0 && (minute % 3) == 0){
                 System.out.println("Keep Center");
