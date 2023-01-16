@@ -6,7 +6,8 @@ public class Main {
 //        } catch(Exception error){
 //            System.out.println(error);
 //        }
-        GuessingGame game_1 = new GuessingGame();
+//        GuessingGame game_1 = new GuessingGame();
+        MarsExpedition trip_7 = new MarsExpedition();
 
     }
 }
