@@ -13,7 +13,8 @@ public class GuessingGame {
 
         Random numberGenerator = new Random();
         int number = numberGenerator.nextInt(100);
-        System.out.println(number);
+
+//        System.out.println(number); //<<---This line of code can be commented back in to see what the random number is in the console
 
         System.out.println("Guess a number between 1 and 100");
         int userInput = 0;
